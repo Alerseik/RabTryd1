@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.Главное_окно"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Главное_окно" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Добавить" Click="MenuItem_Click" Height="34">
+                <MenuItem Click="Meny_KN1_Click" Header="Добавить студента" ></MenuItem>
+                <MenuItem Click="Meny_KN2_Click" Header="Добавить в санаторий" ></MenuItem>
+                <MenuItem Click="Meny_KN3_Click" Header="Добавить оплату" ></MenuItem>
+                <MenuItem Click="Meny_KN4_Click" Header="Добавить период оплат" ></MenuItem>
+                <MenuItem Click="Meny_KN5_Click" Header="Добавить факультет" ></MenuItem>
+                <MenuItem Click="Meny_KN6_Click" Header="Добавить группу" ></MenuItem>
+                <Separator />
+                <MenuItem Header="Выход" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Отчеты" Height="34" ></MenuItem>
+        </Menu>
+        <Button x:Name="P1" Content="Информация о студентах" HorizontalAlignment="Left" Height="29" Margin="0,25,0,0" VerticalAlignment="Top" Width="205" Click="P1_Click"/>
+        <Button x:Name="P2" Content="Санаторий" HorizontalAlignment="Left" Height="29" Margin="210,25,0,0" VerticalAlignment="Top" Width="140" Click="P2_Click"/>
+        <Button x:Name="P3" Content="Оплаты" HorizontalAlignment="Left" Height="29" Margin="355,25,0,0" VerticalAlignment="Top" Width="140" Click="P3_Click"/>
+        <Frame x:Name="Frame_1" HorizontalAlignment="Center" Height="365" Margin="0,59,0,0" VerticalAlignment="Top" Width="780"/>
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp1.DOB_1_Stydent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Добавить студента" Height="325" Width="400">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="KN_1" Content="Добавить" HorizontalAlignment="Center" Height="34" Margin="0,225,0,0" VerticalAlignment="Top" Width="380" Click="KN_1_Click"/>
+        <Label Content="Факультет:" HorizontalAlignment="Left" Height="26" Margin="15,16,0,0" VerticalAlignment="Top" Width="115"/>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Height="20" Margin="135,19,0,0" VerticalAlignment="Top" Width="95"/>
+        <ComboBox x:Name="ComboBox2" HorizontalAlignment="Left" Height="20" Margin="135,44,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TB3" HorizontalAlignment="Left" Height="23" Margin="135,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TB4" HorizontalAlignment="Left" Height="20" Margin="135,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TB5" HorizontalAlignment="Left" Height="20" Margin="135,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TB6" HorizontalAlignment="Left" Height="20" Margin="135,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TB7" HorizontalAlignment="Left" Height="20" Margin="135,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TB9" HorizontalAlignment="Left" Height="173" Margin="235,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
+        <Label Content="Группа:" HorizontalAlignment="Left" Height="26" Margin="15,41,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="ФИО:" HorizontalAlignment="Left" Height="26" Margin="15,69,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="Дата рождения:" HorizontalAlignment="Left" Height="26" Margin="15,94,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="Образование:" HorizontalAlignment="Left" Height="26" Margin="15,119,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="Адрес:" HorizontalAlignment="Left" Height="26" Margin="15,145,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="Телефон:" HorizontalAlignment="Left" Height="26" Margin="15,170,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="Номер билета:" HorizontalAlignment="Left" Height="26" Margin="15,194,0,0" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="TB8" HorizontalAlignment="Left" Height="20" Margin="135,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" AutomationProperties.IsColumnHeader="True"/>
+        <Label Content="Прочая информация:" HorizontalAlignment="Left" Height="28" Margin="235,16,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="237,339,0,0" VerticalAlignment="Top"/>
+        <Button Content="Назад" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        
+    </Grid>
+</Window>
